@@ -1,0 +1,40 @@
+{
+  "name": "handtogether",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "botframework-webchat": "^0.15.0",
+    "chart.js": "^4.4.3",
+    "core-js": "^3.37.1",
+    "roboto-fontface": "*",
+    "vue": "^3.4.21",
+    "vue-chartjs": "^5.3.1",
+    "vue-date-pick": "^1.5.1",
+    "vue-router": "^4.3.3",
+    "vuetify": "^3.6.9",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "@types/webfontloader": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.0",
+    "@typescript-eslint/parser": "^7.13.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/cli-service": "^3.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.26.0",
+    "globals": "^15.4.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.3",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vue-tsc": "^2.0.6"
+  },
+  "type": "module"
+}
