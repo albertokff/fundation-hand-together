@@ -4,7 +4,8 @@
       <v-img
         :aspect-ratio="1"
         class="bg-white"
-        :src="image5"                         
+        :src="image5"
+        style="width:100% !important"
       ></v-img>
       <v-img
         :aspect-ratio="1"
@@ -270,7 +271,7 @@
         </v-col>
 
         <v-col md="5">
-          <span class="pt-10" style="text-align: center;">&copy; Desenvolvido por Viviane Sousa. </span>    
+          <span class="pt-10" style="text-align: center;">&copy; Desenvolvido por Diogo Alberto. </span>    
         </v-col>
       </v-row>            
     </v-col>    
