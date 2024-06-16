@@ -4,11 +4,6 @@
         <h3 class="pt-10 pl-10" style="color:blue;text-align: center;">Para onde estão indo os recursos arrecadados? </h3>
         <GraphicWhereDonation class="pa-10" />
       </v-col>
-
-      <v-col md="4">
-        <h3 class="pt-10 pl-10" style="color:blue;text-align: center;">Valores totais repassados até o momento (mil) </h3>
-        <CircleTotalDonation class="pa-10" />
-      </v-col>
     </v-row>  
 
     <v-row class="d-flex justify-center">
