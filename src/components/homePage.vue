@@ -124,7 +124,7 @@
           />
         </v-row>
 
-        <v-row v-if="!donationUnique" class="pl-15 d-flex justify-center">
+        <v-row v-if="!donationUnique" class="d-flex justify-center">
           <v-col md="12">
               <v-img
               class="bg-white"
@@ -136,9 +136,9 @@
 
           <v-col class="pt-10 d-flex justify-center">
             <p>Compartilhe!</p>
-            <i class="pl-2 fa-brands fa-instagram"></i>
-            <i class="pl-2 fa-brands fa-facebook"></i>
-            <i class="pl-2 fa-brands fa-whatsapp"></i>
+            <i style="cursor:pointer;" class="pl-2 fa-brands fa-instagram"></i>
+            <i style="cursor:pointer;" class="pl-2 fa-brands fa-facebook"></i>
+            <i style="cursor:pointer;" class="pl-2 fa-brands fa-whatsapp"></i>
           </v-col>
       </v-row>  
 
@@ -273,12 +273,10 @@
       </v-row>
 
       <v-row class="pl-10 pr-10">
-        <v-radio-group>
-          <v-radio label="Quero receber as comunicações da Fundação Mãos Unidas" value="one"></v-radio>
-        </v-radio-group>
-        <v-radio-group>
-          <v-radio label="Declaro que li e aceito a Política de Doações e a Política de Privacidade" value="two"></v-radio>
-        </v-radio-group>        
+        <input type="checkbox" class="mr-4">Quero receber as comunicações da Fundação Mãos Unidas</input>
+      </v-row>
+      <v-row class="pl-10 pr-10">
+        <input type="checkbox" class="mr-4">Declaro que li e aceito a Política de Doações e de Privacidade</input>
       </v-row>
 
       <v-row class="pt-5 d-flex justify-center">
