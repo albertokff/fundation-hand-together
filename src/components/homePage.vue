@@ -2,33 +2,51 @@
     <v-row>
     
     <v-col cols="7">
-      <v-img
-        :aspect-ratio="1"
+      <v-img        
         class="bg-white"
-        :src="image5"
-        style="width:100% !important;"                         
+        :src="image5"                                 
+        style="width:100% !important;position:relative !important;"
       ></v-img>
-      <v-img
-        :aspect-ratio="1"
+      <v-img        
         class="bg-white"
-        :src="logo"                    
-        style="width:100%;"     
+        :src="logo"                               
+        style="width:100% important;position:relative !important;"
       ></v-img>  
-      <v-img
-        :aspect-ratio="1"
+      <v-img        
         class="bg-white"
         :src="image3"                         
+        style="width:100% important;position:relative !important;"
       ></v-img>  
-      <v-img
-        :aspect-ratio="1"
+      <v-img        
         class="bg-white"
         :src="image2"                         
+        style="width:100% important;position:relative !important;"
       ></v-img>  
-      <v-img
-        :aspect-ratio="1"
+      <v-img        
         class="bg-white"
         :src="image4"                         
-      ></v-img>         
+        style="width:100% important;position:relative !important;"
+      ></v-img>
+      <v-img        
+        class="bg-white"
+        :src="image5"                                 
+        style="width:100% !important;position:relative !important;"
+      ></v-img>
+      <v-img        
+        class="bg-white"
+        :src="logo"                               
+        style="width:100% important;position:relative !important;"
+      ></v-img>  
+      <v-img        
+        class="bg-white"
+        :src="image3"                         
+        style="width:100% important;position:relative !important;"
+      ></v-img>
+      <v-img        
+        class="bg-white"
+        :src="image2"                         
+        style="width:100% important;position:relative !important;"
+      ></v-img>  
     </v-col>
     <v-col
       cols="5"      
