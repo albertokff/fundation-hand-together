@@ -1,16 +1,18 @@
 <template>
     <v-row>
+    
     <v-col cols="7">
       <v-img
         :aspect-ratio="1"
         class="bg-white"
         :src="image5"
-        style="width:100% !important"
+        style="width:100% !important;"                         
       ></v-img>
       <v-img
         :aspect-ratio="1"
         class="bg-white"
-        :src="logo"                         
+        :src="logo"                    
+        style="width:100%;"     
       ></v-img>  
       <v-img
         :aspect-ratio="1"
