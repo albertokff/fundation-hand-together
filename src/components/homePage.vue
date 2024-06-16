@@ -271,7 +271,7 @@
         </v-col>
 
         <v-col md="5">
-          <span class="pt-10" style="text-align: center;">&copy; Desenvolvido por Viviane Sousa. </span>    
+          <span class="pt-10" style="text-align: center;">&copy; Desenvolvido por Diogo Alberto. </span>    
         </v-col>
       </v-row>            
     </v-col>    
