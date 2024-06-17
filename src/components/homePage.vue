@@ -31,22 +31,7 @@
         class="bg-white"
         :src="image5"                                 
         style="width:100% !important;position:relative !important;"
-      ></v-img>
-      <v-img        
-        class="bg-white"
-        :src="logo"                               
-        style="width:100% important;position:relative !important;"
-      ></v-img>  
-      <v-img        
-        class="bg-white"
-        :src="image3"                         
-        style="width:100% important;position:relative !important;"
-      ></v-img>
-      <v-img        
-        class="bg-white"
-        :src="image2"                         
-        style="width:100% important;position:relative !important;"
-      ></v-img>  
+      ></v-img>      
     </v-col>
     <v-col
       cols="5"      
